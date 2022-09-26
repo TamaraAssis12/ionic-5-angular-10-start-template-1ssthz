@@ -1,0 +1,31 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,900&family=Poppins:wght@100;200;400&display=swap');
+
+:root {
+  --ion-toolbar-background: #fff;
+
+  --ion-tab-bar-background: #008ac3;
+  --ion-tab-bar-color: white;
+  --ion-tab-bar-color-selected: #ffac00;
+
+  /* --ion-background-color: linear-gradient(180deg, #fff, #008ac3); */
+}
+
+ion-title {
+  text-align: center;
+  /* color: #00b2e8; */
+  color: #008ac3;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.icons-status {
+  color: green;
+  padding: 30px;
+  height: 100px;
+}
